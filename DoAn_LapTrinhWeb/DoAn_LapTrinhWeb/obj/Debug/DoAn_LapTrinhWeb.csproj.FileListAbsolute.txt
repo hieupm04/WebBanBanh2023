@@ -1163,3 +1163,7 @@ C:\Users\PC\Desktop\Đồ án tốt nghiệp\Webbanbanh2023_lan1\DoAn_LapTrinhWe
 C:\Users\PC\Desktop\Đồ án tốt nghiệp\Webbanbanh2023_lan1\DoAn_LapTrinhWeb\obj\Debug\DoAn_LapTrinhWeb.csproj.CoreCompileInputs.cache
 C:\Users\PC\Desktop\Đồ án tốt nghiệp\Webbanbanh2023_lan1\DoAn_LapTrinhWeb\obj\Debug\DoAn_LapTrinhWeb.dll
 C:\Users\PC\Desktop\Đồ án tốt nghiệp\Webbanbanh2023_lan1\DoAn_LapTrinhWeb\obj\Debug\DoAn_LapTrinhWeb.pdb
+C:\Users\PC\Desktop\Đồ án tốt nghiệp\DoAn_LapTrinhWeb\DoAn_LapTrinhWeb\obj\Debug\DoAn_LapTrinhWeb.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Đồ án tốt nghiệp\DoAn_LapTrinhWeb\DoAn_LapTrinhWeb\obj\Debug\DoAn_LapTrinhWeb.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Đồ án tốt nghiệp\DoAn_LapTrinhWeb\DoAn_LapTrinhWeb\obj\Debug\DoAn_LapTrinhWeb.dll
+C:\Users\PC\Desktop\Đồ án tốt nghiệp\DoAn_LapTrinhWeb\DoAn_LapTrinhWeb\obj\Debug\DoAn_LapTrinhWeb.pdb

@@ -350,18 +350,7 @@
                                             }
                                             foreach (var coupon in CouponGlobal)
                                             {
-                                                if (coupon.discounts_type == 3)
-                                                {
-                                                    <li class="d-flex fs-14px">
-                                                        <span class="material-icons fs-6px me-1 position-relative mt-1"> circle </span><span class="text">Nhập mã <span class="font_roboto_medium">@coupon.discounts_code</span> giảm @coupon.discount_price% tối đa <span class="text-website font_roboto_medium">@coupon.discount_max.ToString("#,###₫", culture.NumberFormat)</span> - @coupon.discount_name, áp dụng đến @coupon.discount_end.ToString("dd/MM/yyyy") </span>
-                                                    </li>
-                                                }
-                                                else
-                                                {
-                                                    <li class="d-flex fs-14px">
-                                                        <span class="material-icons fs-6px me-1 position-relative mt-1"> circle </span><span class="text">Nhập mã <span class="font_roboto_medium">@coupon.discounts_code</span> giảm ngay <span class="text-website font_roboto_medium">@coupon.discount_price.ToString("#,###₫", culture.NumberFormat)</span> - @coupon.discount_name, áp dụng đến @coupon.discount_end.ToString("dd/MM/yyyy") </span>
-                                                    </li>
-                                                }
+                                                
                                             }
                                         }
                                         else
