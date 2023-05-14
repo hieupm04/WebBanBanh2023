@@ -190,7 +190,7 @@ namespace DoAn_LapTrinhWeb.Controllers
                 accounts.Dateofbirth = DateTime.Now;
                 accounts.expired_at = DateTime.Now.AddMinutes(10);
                 //tạo chuỗi code kích hoạt tài khoản
-                accounts.status = "0";
+                accounts.status = "1";
                 model.Requestcode = Guid.NewGuid().ToString();
                 accounts.Requestcode = model.Requestcode;
                 //Gửi request code đến email bạn đăng ký tài khoản, nếu không muốn gửi request code thì chuyển status ="1", comment  model.Requestcode = Guid.NewGuid().ToString(); và SendVerificationLinkEmail(model.Email, model.Requestcode, "VerifyAccount");
@@ -417,13 +417,7 @@ namespace DoAn_LapTrinhWeb.Controllers
                 UseDefaultCredentials = false,
                 Credentials = new NetworkCredential(fromEmail.Address, fromEmailPassword)
             };
-            using (var message = new MailMessage(fromEmail, toEmail)
-            {
-                Subject = subject,
-                Body = body,
-                IsBodyHtml = true
-            })
-            smtp.Send(message);
+            
         }
         //Quản lý địa chỉ cá nhân
         public ActionResult AddressManager()
